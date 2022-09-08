@@ -1,8 +1,8 @@
 class Magician {
-  constructor({name: stageName, assistant: hasAssistant, clothing: clothes}){
-    this.name = `The Great ${stageName}`;
-    this.assistant = hasAssistant;
-    this.favoriteAccessory = clothes || "top hat";
+    constructor(newMagician){
+    this.name = `The Great ${newMagician.name}`;
+    this.assistant = newMagician.assistant;
+    this.favoriteAccessory = newMagician.clothing || "top hat";
     this.confidencePercentage = 10;
   }
 
