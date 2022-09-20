@@ -22,7 +22,6 @@ class Runner {
     this.milesRun += length;
     this.fitness += length;
   }
-
 }
 
 module.exports = Runner;
