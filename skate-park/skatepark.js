@@ -8,7 +8,6 @@ class SkatePark {
     this.cost = skatePark.price || 0;
     this.occupants = [];
   }
-
 }
 
 module.exports = SkatePark;
